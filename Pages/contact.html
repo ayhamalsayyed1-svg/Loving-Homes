@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Loving Homes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="../index.html" class="logo">
+                <i class="fas fa-paw"></i>
+                    Loving Homes
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">الرئيسية</a></li>
+                <li><a href="services.html">المرافق</a></li>
+                <li><a href="packages.html">الباقات</a></li>
+                <li><a href="booking.html">الحجز</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+                <li><a href="about.html">عن الشركة</a></li>
+            </ul>
+            <button class="text-size-btn" id="fontDecrease" aria-label="تصغير النص">
+                A-
+            </button>
+            <button class="text-size-btn" id="fontIncrease" aria-label="تكبير النص">
+                A+
+            </button>
+            <button class="darkmode-btn" id="darkModeBtn" aria-label="الوضع الداكن">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="القائمة">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <h1>اتصل بنا</h1>
+        <p>نحن هنا للإجابة على جميع استفساراتك</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>تواصل معنا</h3>
+                    <p>نحن هنا للإجابة على جميع استفساراتك ومساعدتك في اختيار أفضل باقة لحيوانك الأليف</p>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>هونج كونج</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+852 76431932</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>ayham@lovinghomes.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>السبت - الخميس: 8ص - 8م</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>أرسل لنا طلبك</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">الاسم</label>
+                            <input type="text" id="name" name="name" placeholder="أدخل اسمك" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">رقم الهاتف</label>
+                            <input type="tel" id="phone" name="phone" placeholder="أدخل رقم هاتفك">
+                        </div>
+                        <div class="form-group">
+                            <label for="package">الباقة المطلوبة</label>
+                            <select id="package" name="package">
+                                <option value="">اختر الباقة</option>
+                                <option value="premium">المميزة</option>
+                                <option value="classic">الكلاسيكية</option>
+                                <option value="daily">اليوم</option>
+                                <option value="custom">مخصصة</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">الرسالة</label>
+                            <textarea id="message" name="message" placeholder="اكتب رسالتك هنا..." required></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-submit">إرسال الرسالة</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section style="background: var(--background); padding: 0;">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236196.52551801377!2d113.82343191743684!3d22.28594298036036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403e2eda332980f%3A0xf08ab3badbe97f18!2sHong%20Kong!5e0!3m2!1sen!2s!4v1646123456789!5m2!1sen!2s" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+    <!-- FAQ Section -->
+    <section style="background: var(--card-bg);">
+        <div class="container">
+            <div class="section-header">
+                <h2>الأسئلة الشائعة</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="background: var(--background); padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">ما هي ساعات العمل؟</h4>
+                    <p style="color: #666;">نعمل من السبت إلى الخميس من الساعة 8 صباحاً حتى 8 مساءً، والجمعة من 9 صباحاً حتى 6 مساءً. خدمة الطوارئ متاحة على مدار 24 ساعة.</p>
+                </div>
+                <div style="background: var(--background); padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">هل تقدمون خدمة التوصيل؟</h4>
+                    <p style="color: #666;">نعم، نوفر خدمة توصيل من وإلى المكان داخل هونج كونج.</p>
+                </div>
+                <div style="background: var(--background); padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">ما هي الحيوانات التي تقبلونها؟</h4>
+                    <p style="color: #666;">نقبل الكلاب والقطط بشكل أساسي. للحيوانات الأخرى، يرجى التواصل معنا للاستفسار.</p>
+                </div>
+                <div style="background: var(--background); padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;">
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">كيف أحجز؟</h4>
+                    <p style="color: #666;">يمكنك الحجز عبر ملء نموذج الاتصال معنا أو الاتصال بنا مباشرة. سنتواصل معك لتأكيد الحجز.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voice Button -->
+    <div style="text-align: center; margin: 2rem auto; max-width: 1200px;">
+        <button class="btn btn-outline" id="voiceBtn" onclick="toggleVoice()" style="border-color: var(--accent); color: var(--accent);">
+            <i class="fas fa-volume-up" id="voiceIcon"></i> <span id="voiceText">استمع للرسالة</span>
+        </button>
+    </div>
+
+    <!-- Voice Audio Element -->
+    <audio id="voiceAudio">
+        <source src="../assets/voices/Voice-communication-page.mp3" type="audio/mpeg">
+        متصفحك لا يدعم تشغيل الصوت.
+    </audio>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>لوفينغ هومز</h4>
+                <p>أفضل رعاية لأحبائك. نحن نضمن راحة وسعادة حيوانك الأليف مع خدمات عالية الجودة ومرافق حديثة.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>روابط سريعة</h4>
+                <ul class="footer-links">
+                <li><a href="../index.html" class="active">Home</a></li>
+                <li><a href="about.html"> about the company</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>خدماتنا</h4>
+                <ul class="footer-links">
+                    <li><a href="services.html">صالة الحلاقة</a></li>
+                    <li><a href="services.html">خدمة التوصيل</a></li>
+                    <li><a href="services.html">الرعاية البيطرية</a></li>
+                    <li><a href="packages.html">الباقات المخصصة</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>ساعات العمل</h4>
+                <p>السبت - الخميس: 8 صباحاً - 8 مساءً</p>
+                <p>الجمعة: 9 صباحاً - 6 مساءً</p>
+                <p>خدمة الطوارئ: 24/7</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Loving Homes. All rights reserved</p>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script src="../js/script.js"></script>
+    
+</body>
+</html>
+

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packages - Loving Homes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="index.html" class="logo">
+                <i class="fas fa-paw"></i>
+                Loving Homes
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">الرئيسية</a></li>
+                <li><a href="services.html">المرافق</a></li>
+                <li><a href="packages.html">الباقات</a></li>
+                <li><a href="booking.html">الحجز</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+                <li><a href="about.html">عن الشركة</a></li>
+            </ul>
+            <button class="text-size-btn" id="fontDecrease" aria-label="تصغير النص">
+                A-
+            </button>
+            <button class="text-size-btn" id="fontIncrease" aria-label="تكبير النص">
+                A+
+            </button>
+            <button class="darkmode-btn" id="darkModeBtn" aria-label="الوضع الداكن">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="القائمة">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <h1>باقاتنا</h1>
+        <p>اختر الباقة المناسبة لاحتياجات حيوانك الأليف</p>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages">
+        <div class="container">
+            <div class="packages-grid">
+                <!-- Premium Package -->
+                <div class="package-card featured">
+                    <span class="package-badge">الأكثر شعبية</span>
+                    <div class="package-header">
+                        <h3>المميزة</h3>
+                        <p class="subtitle">باقة شاملة لكل الاحتياجات</p>
+                        <p class="price">$700/يوم</p>
+                    </div>
+                    <ul class="package-features">
+                        <li>
+                            <i class="fas fa-walking"></i>
+                            <span>المشي أربعة مرات / أربعة أنشطة يوميًا</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-seedling"></i>
+                            <span>مساحة عشب خاصة</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-camera"></i>
+                            <span>تحديثات وصور يومية</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-gift"></i>
+                            <span>مكافآت خاصة</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-home"></i>
+                            <span>غرفة خاصة</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-utensils"></i>
+                            <span>وجبات خاصة</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary select-package-btn" data-package="premium" style="width: 100%; margin-top: 1.5rem;">احجز الآن</button>
+                </div>
+
+                <!-- Classic Package -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>الكلاسيكية</h3>
+                        <p class="subtitle">باقة مثالية للرعاية اليومية</p>
+                        <p class="price">$500/يوم</p>
+                    </div>
+                    <ul class="package-features">
+                        <li>
+                            <i class="fas fa-walking"></i>
+                            <span>المشي ثلاثة مرات / ثلاثة أنشطة يوميًا</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-home"></i>
+                            <span>حظيرة لعب داخلية</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-couch"></i>
+                            <span>منطقة للاسترخاء</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-cut"></i>
+                            <span>جلسة حلاقة وتنظيف</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-camera"></i>
+                            <span>صور أسبوعية</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary select-package-btn" data-package="classic" style="width: 100%; margin-top: 1.5rem;">احجز الآن</button>
+                </div>
+
+                <!-- Daily Package -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>اليوم</h3>
+                        <p class="subtitle">باقة ليوم واحد ممتع</p>
+                        <p class="price">$200/يوم</p>
+                    </div>
+                    <ul class="package-features">
+                        <li>
+                            <i class="fas fa-walking"></i>
+                            <span>المشي مرتين يوميًا</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-futbol"></i>
+                            <span>منطقة لعب خارجية</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-running"></i>
+                            <span>مسار الرشاقة</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-digging"></i>
+                            <span>حفر حفرة في الرمل</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-coffee"></i>
+                            <span>وجبة واحدة</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary select-package-btn" data-package="daily" style="width: 100%; margin-top: 1.5rem;">احجز الآن</button>
+                </div>
+
+                <!-- Custom Package -->
+                <div class="custom-package">
+                    <h3>باقات مخصصة</h3>
+                    <p>تتوفر حزم مخصصة للإقامات الطويلة أو للحيوانات ذات المتطلبات الإضافية. يجب على العملاء الاتصال بالشركة لترتيب أي حزم مخصصة.</p>
+                    <a href="contact.html" class="btn btn-primary" style="margin-top: 1rem;">اطلب باقة مخصصة</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Package Comparison -->
+    <section style="background: var(--card-bg);">
+        <div class="container">
+            <div class="section-header">
+                <h2>مقارنة الباقات</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div style="overflow-x: auto;">
+                <table style="width: 100%; border-collapse: collapse; margin-top: 2rem; min-width: 600px;">
+                    <thead>
+                        <tr style="background: var(--primary); color: var(--text-light);">
+                            <th style="padding: 1rem; text-align: right;">الميزة</th>
+                            <th style="padding: 1rem; text-align: center;">المميزة</th>
+                            <th style="padding: 1rem; text-align: center;">الكلاسيكية</th>
+                            <th style="padding: 1rem; text-align: center;">اليوم</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background: var(--background);">
+                            <td style="padding: 1rem; border-bottom: 1px solid #eee;">المشي/النشاطات</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;">4 مرات/يوم</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;">3 مرات/يوم</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;">2 مرات/يوم</td>
+                        </tr>
+                        <tr style="background: var(--card-bg);">
+                            <td style="padding: 1rem; border-bottom: 1px solid #eee;">مساحة عشب خاصة</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;"><i class="fas fa-check" style="color: var(--accent);"></i></td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;"><i class="fas fa-times" style="color: #ccc;"></i></td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;"><i class="fas fa-times" style="color: #ccc;"></i></td>
+                        </tr>
+                        <tr style="background: var(--background);">
+                            <td style="padding: 1rem; border-bottom: 1px solid #eee;">حظيرة لعب داخلية</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;"><i class="fas fa-check" style="color: var(--accent);"></i></td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;"><i class="fas fa-check" style="color: var(--accent);"></i></td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;"><i class="fas fa-times" style="color: #ccc;"></i></td>
+                        </tr>
+                        <tr style="background: var(--card-bg);">
+                            <td style="padding: 1rem; border-bottom: 1px solid #eee;">تحديثات صور يومية</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;"><i class="fas fa-check" style="color: var(--accent);"></i></td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;"><i class="fas fa-check" style="color: var(--accent);"></i></td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;"><i class="fas fa-times" style="color: #ccc;"></i></td>
+                        </tr>
+                        <tr style="background: var(--background);">
+                            <td style="padding: 1rem; border-bottom: 1px solid #eee;">جلسة حلاقة</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;"><i class="fas fa-check" style="color: var(--accent);"></i></td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;"><i class="fas fa-check" style="color: var(--accent);"></i></td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid #eee;"><i class="fas fa-times" style="color: #ccc;"></i></td>
+                        </tr>
+                        <tr style="background: var(--card-bg);">
+                            <td style="padding: 1rem;">منطقة لعب خارجية</td>
+                            <td style="padding: 1rem; text-align: center;"><i class="fas fa-check" style="color: var(--accent);"></i></td>
+                            <td style="padding: 1rem; text-align: center;"><i class="fas fa-check" style="color: var(--accent);"></i></td>
+                            <td style="padding: 1rem; text-align: center;"><i class="fas fa-check" style="color: var(--accent);"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section style="background: linear-gradient(135deg, var(--primary), var(--primary-dark)); padding: 4rem 2rem; text-align: center;">
+        <div class="container">
+            <h2 style="font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--text-light); margin-bottom: 1rem;">جاهز للحجز؟</h2>
+            <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; font-size: 1.1rem;">اختر الباقة المناسبة واحجز الآن</p>
+            <a href="contact.html" class="btn btn-primary">احجز الآن</a>
+        </div>
+    </section>
+
+    <!-- Voice Button -->
+    <div style="text-align: center; margin: 2rem auto; max-width: 1200px;">
+        <button class="btn btn-outline" id="voiceBtn" onclick="toggleVoice()" style="border-color: var(--accent); color: var(--accent);">
+            <i class="fas fa-volume-up" id="voiceIcon"></i> <span id="voiceText">استمع للرسالة</span>
+        </button>
+    </div>
+
+    <!-- Voice Audio Element -->
+    <audio id="voiceAudio">
+        <source src="../assets/voices/Voice-packages-page.mp3" type="audio/mpeg">
+        متصفحك لا يدعم تشغيل الصوت.
+    </audio>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>لوفينغ هومز</h4>
+                <p>أفضل رعاية لأحبائك. نحن نضمن راحة وسعادة حيوانك الأليف مع خدمات عالية الجودة ومرافق حديثة.</p>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/852XXXXXXXX" target="_blank" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>روابط سريعة</h4>
+                <ul class="footer-links">
+                <li><a href="../index.html" class="active">Home</a></li>
+                <li><a href="about.html"> about the company</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>خدماتنا</h4>
+                <ul class="footer-links">
+                    <li><a href="services.html">صالة الحلاقة</a></li>
+                    <li><a href="services.html">خدمة التوصيل</a></li>
+                    <li><a href="services.html">الرعاية البيطرية</a></li>
+                    <li><a href="packages.html">الباقات المخصصة</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>ساعات العمل</h4>
+                <p>السبت - الخميس: 8 صباحاً - 8 مساءً</p>
+                <p>الجمعة: 9 صباحاً - 6 مساءً</p>
+                <p>خدمة الطوارئ: 24/7</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Loving Homes. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    
+
+</body>
+</html>
+
